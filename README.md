@@ -78,3 +78,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Dashboard
 ![image](https://github.com/jahanzaibseyal/crypto-exchange/assets/8545341/17fd0f2a-1306-4e20-8e83-ab2474a3b6fc)
 
+### Blogs List
+![image](https://github.com/jahanzaibseyal/crypto-exchange/assets/8545341/025610a1-433c-4226-9f62-ae521b935956)
+
+### Blog Add
+![image](https://github.com/jahanzaibseyal/crypto-exchange/assets/8545341/6fee7da6-8153-4f7f-8945-edfdddc7b223)
+
+### Blog Edit
+![image](https://github.com/jahanzaibseyal/crypto-exchange/assets/8545341/8fedf93d-8794-4183-b54d-401ed7311b1a)
+
+
+
