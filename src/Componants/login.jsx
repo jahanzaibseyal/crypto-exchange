@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { TextField, Button, Grid, Typography, Paper } from '@mui/material';
 import { toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
 import './login.css';
 
 function Login({ handleLogin, handleLoginRegisterSwitch }) {
@@ -82,12 +83,11 @@ function Login({ handleLogin, handleLoginRegisterSwitch }) {
                     </Button>
                   </Grid>
                   <Grid item>
-                    <Button
-                      variant='outlined'
-                      className='button-block'
-                      onClick={() => handleLoginRegisterSwitch()}>
-                      Register
-                    </Button>
+                    <Link to={'/register'}>
+                      <Button variant='outlined' className='button-block'>
+                        Register
+                      </Button>
+                    </Link>
                   </Grid>
                 </Grid>
               </form>

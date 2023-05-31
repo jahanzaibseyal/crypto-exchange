@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { TextField, Button, Grid, Typography, Paper } from '@mui/material';
 import { toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
 
 function Register({ addUser, handleLoginRegisterSwitch }) {
   const [firstName, setFirstName] = useState('');
@@ -178,12 +179,11 @@ function Register({ addUser, handleLoginRegisterSwitch }) {
                     </Button>
                   </Grid>
                   <Grid item>
-                    <Button
-                      variant='outlined'
-                      className='button-block'
-                      onClick={() => handleLoginRegisterSwitch()}>
-                      Login
-                    </Button>
+                    <Link to={'/'}>
+                      <Button variant='outlined' className='button-block'>
+                        Login
+                      </Button>
+                    </Link>
                   </Grid>
                 </Grid>
               </form>

@@ -1,0 +1,9 @@
+.ant-table-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ant-table-title button {
+    margin-left: auto;
+  }

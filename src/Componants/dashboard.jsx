@@ -5,11 +5,11 @@ import Container from '@mui/material/Container';
 
 export default function Dashboard() {
   return (
-    <React.Fragment>
+    <>
       <CssBaseline />
       <Container maxWidth='lg'>
         <Box sx={{ bgcolor: '#cfe8fc', height: '90vh' }} />
       </Container>
-    </React.Fragment>
+    </>
   );
 }
